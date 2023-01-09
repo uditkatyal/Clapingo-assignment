@@ -26,21 +26,18 @@ const Offer = () => {
           <img src={offerImg2} alt="" />
           <div className={classes.subOffer}>
             <img src={overlay1} alt="" />
-            <h2>Customised Curriculum</h2>
-            <p>
-              Customised sessions and module for Basic, Intermediate and
-              Advanced learners.
-            </p>
+            <h2>Experimental Learning </h2>
+            <p>Do not study English, rather consume and use it.</p>
           </div>
         </div>
         <div className={classes.offer}>
           <img src={offerImg3} alt="" />
           <div className={classes.subOffer}>
             <img src={overlay1} alt="" />
-            <h2>Customised Curriculum</h2>
+            <h2>Shadowing Method</h2>
             <p>
-              Customised sessions and module for Basic, Intermediate and
-              Advanced learners.
+              Think and speak in English rather than translating it from mother
+              tongue.
             </p>
           </div>
         </div>
