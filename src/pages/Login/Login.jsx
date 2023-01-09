@@ -42,6 +42,7 @@ const Login = () => {
                     className="login__input"
                     placeholder="Email"
                     ref={email}
+                    value={emailState}
                   />
                 </div>
                 <div className="login__field">
@@ -52,6 +53,7 @@ const Login = () => {
                     className="login__input"
                     placeholder="password"
                     ref={password}
+                    value={passwordState}
                   />
                 </div>
                 <button className="button login__submit">
