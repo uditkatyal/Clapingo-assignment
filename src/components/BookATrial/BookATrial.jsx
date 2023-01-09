@@ -27,7 +27,9 @@ const BookATrial = () => {
             <h2>
               200 <span style={{ color: "#18C0A6" }}>+</span>{" "}
             </h2>
-            <p>Speakers around the globe</p>
+            <p style={{ textAlign: "center", marginBottom: "10px" }}>
+              Speakers Globally
+            </p>
           </div>
         </div>
         <div>
