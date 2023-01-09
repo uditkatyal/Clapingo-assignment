@@ -1,0 +1,70 @@
+.works {
+  /* width: 100%; */
+  text-align: left;
+  margin-top: 100px;
+  padding: 50px 130px;
+  font-family: "poppins";
+  font-weight: bold;
+  font-size: 40px;
+}
+.workMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.stepMain {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 150px;
+}
+.steps {
+  width: 379px;
+  height: 175px;
+  /* padding: 20px  */
+
+  background: #ffffff;
+  /* Shadow 2 */
+
+  box-shadow: 26px 26px 23px rgba(204, 210, 212, 0.36);
+  border-radius: 12px;
+  border: 1.75px solid #dee4e6;
+}
+.steps h2 {
+  padding: 10px 20px;
+  text-align: left;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 160% */
+
+  letter-spacing: -0.01em;
+
+  color: #001f27;
+}
+.steps p {
+  padding: 0px 20px;
+  text-align: left;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  /* or 131% */
+  letter-spacing: 0.04em;
+  /* letter-spacing: -0.01em; */
+  font-feature-settings: "liga" off;
+
+  color: #808f93;
+}
+.subsImg {
+  position: relative;
+  border-radius: 18px;
+}
+.overlayImg {
+  position: absolute;
+  top: 70%;
+  left: -15%;
+}

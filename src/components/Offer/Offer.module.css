@@ -1,0 +1,51 @@
+.whatWeOffer {
+  font-family: "Poppins";
+  margin: 100px 0;
+}
+.offerMain {
+  margin-top: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.offer {
+  position: relative;
+}
+.subOffer {
+  position: absolute;
+  top: 63.5%;
+  /* left: .8%; */
+}
+.subOffer h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  position: absolute;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  letter-spacing: -0.01em;
+
+  color: #00d2ff;
+  top: 0;
+  left: 20px;
+}
+.subOffer p {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  text-align: left;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  /* or 131% */
+
+  letter-spacing: -0.01em;
+  font-feature-settings: "liga" off;
+
+  color: #ffffff;
+}

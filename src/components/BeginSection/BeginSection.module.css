@@ -1,0 +1,100 @@
+.mainSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.tagLine {
+  position: absolute;
+  left: 10%;
+  text-align: left;
+  font-family: "poppins";
+  width: 687px;
+  height: 204px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 68px;
+
+  letter-spacing: -0.01em;
+
+  color: #001f27;
+}
+.subLine {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  text-align: left;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  letter-spacing: -0.01em;
+  font-feature-settings: "liga" off;
+
+  /* Text color */
+
+  color: #001f27;
+}
+.button {
+  position: relative;
+}
+.book {
+  font-family: Poppins;
+  position: absolute;
+  left: 10%;
+  top: 65%;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 32px;
+  gap: 10px;
+  color: white;
+  width: 164px;
+  height: 54px;
+
+  background: #ff736a;
+  border-radius: 80px;
+  border: #ff736a;
+  cursor: pointer;
+}
+.download {
+  font-family: Poppins;
+  position: absolute;
+  left: 23%;
+  top: 65%;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 32px;
+  gap: 10px;
+  color: white;
+  width: 204px;
+  height: 54px;
+
+  background: white;
+  border-radius: 80px;
+  color: #ff736a;
+  border: 1px solid #ff736a;
+  cursor: pointer;
+}
+.emptyDiv {
+  position: absolute;
+  left: 60%;
+  top: 20%;
+  width: 500px;
+  height: 300px;
+  border-radius: 50px;
+  border: 2px solid #333;
+  background-color: white;
+}

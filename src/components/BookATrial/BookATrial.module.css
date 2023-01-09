@@ -1,0 +1,141 @@
+.mainTrial {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 50px; */
+}
+.grad {
+  position: relative;
+  width: 40%;
+  height: 400px;
+  background: linear-gradient(
+    90deg,
+    #00d2ff -13.02%,
+    rgba(0, 210, 255, 0) 103.77%
+  );
+}
+.divSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px 15px;
+  /* gap: 10px; */
+  width: 25%;
+  height: 20%;
+  background: #3a3636;
+  border-radius: 12px;
+  color: white;
+  font-family: poppins;
+}
+.divSection p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.divSection h2 {
+  position: relative;
+  top: -20%;
+}
+.divSection p {
+  position: relative;
+  top: -50%;
+}
+.divSection1 {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+}
+.divSection2 {
+  position: absolute;
+  top: 20%;
+  left: 80%;
+}
+.divSection3 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+}
+.divSection4 {
+  position: absolute;
+  top: 60%;
+  left: 90%;
+}
+.start {
+  position: relative;
+  right: 20%;
+  text-align: left;
+  width: 500px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 52px;
+  /* or 130% */
+
+  letter-spacing: -0.01em;
+
+  /* Text color */
+
+  color: #001f27;
+}
+.startText {
+  position: relative;
+  right: 20%;
+  text-align: left;
+  width: 410px;
+  height: 72px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: -0.01em;
+
+  /* Text color */
+
+  color: #001f27;
+}
+.bookATrial {
+  position: relative;
+  right: 61%;
+  width: 89px;
+  height: 24px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.01em;
+
+  /* Primary */
+
+  color: #139980;
+}
+.book_a_trial {
+  position: relative;
+  right: 20%;
+  font-family: Poppins;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 32px;
+  gap: 10px;
+  color: white;
+  width: 164px;
+  height: 54px;
+
+  background: #ff736a;
+  border-radius: 80px;
+  border: #ff736a;
+  cursor: pointer;
+}
