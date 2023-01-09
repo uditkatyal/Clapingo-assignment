@@ -20,7 +20,9 @@ const header = () => {
         <div>
           <button className={classes.loginButton}>
             <img src={UserLogo} alt="" />
-            <span>Login</span>
+            <a style={{ textDecoration: "none" }} href="/login">
+              <span>Login</span>
+            </a>
           </button>
         </div>
       </div>
