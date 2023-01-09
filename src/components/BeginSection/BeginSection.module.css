@@ -88,6 +88,12 @@
   border: 1px solid #ff736a;
   cursor: pointer;
 }
+.download:hover {
+  background: #ff736a;
+  color: white;
+  border: 1px solid #ff736a;
+  transition: all 0.5s ease-in-out;
+}
 .emptyDiv {
   position: absolute;
   left: 60%;
