@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import Subscription from "../../assets/subscription.svg";
 import classes from "./HowItWorks.module.css";
 import overlay2 from "../../assets/overlay2.svg";
+import subs from "../../assets/subs.png";
 const HowItWorks = () => {
   return (
     <Fragment>
@@ -24,8 +25,8 @@ const HowItWorks = () => {
             </div>
           </div>
           <div className={classes.subsImg}>
-            <img src={Subscription} alt="" />
-            <img className={classes.overlayImg} src={overlay2} alt="" />
+            <img src={subs} alt="" />
+            {/* <img className={classes.overlayImg} src={overlay2} alt="" /> */}
           </div>
           <div className={classes.stepMain}>
             <div className={classes.steps}>
